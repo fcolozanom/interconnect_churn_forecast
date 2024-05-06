@@ -48,18 +48,6 @@ Para embarcarnos en este proyecto de pronóstico de la tasa de cancelación de c
 4. Selección de características: Se identificarán las características más relevantes para predecir la cancelación de clientes utilizando técnicas como la importancia de características basada en modelos.
 5. Preparación de preguntas aclaratorias: Se elaborará una lista de preguntas que surjan durante la exploración inicial de datos para discutirlas con el equipo.
 
-## Librerias necesarias
-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-from sklearn.preprocessing import OneHotEncoder
-
 ## Proceso de análisis de datos y modelado
 
 El código se organiza en cuatro secciones principales, cada una dedicada a una etapa específica del proceso de análisis de datos. En la primera sección, "Exploración de datos", se importan las bibliotecas necesarias y se define una función para cargar los datos desde archivos CSV. Después, se cargan los datos de diferentes archivos y se fusionan en un solo DataFrame. Se identifica que esta sección se centra en la preparación inicial de los datos para su análisis subsiguiente.
